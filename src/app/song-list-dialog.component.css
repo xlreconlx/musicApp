@@ -1,0 +1,9 @@
+.song-details {
+  white-space: normal;
+  overflow: visible;
+}
+
+mat-dialog-content {
+  max-height: 60vh; /* Limit height for scrollability */
+  overflow-y: auto;
+}

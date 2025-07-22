@@ -1,0 +1,71 @@
+.spacer {
+  flex: 1 1 auto;
+}
+
+.main-container {
+  display: flex;
+  padding: 2rem;
+  gap: 2rem;
+}
+
+.left-panel {
+  flex: 1;
+  min-width: 300px;
+}
+
+.right-panel {
+  flex: 2;
+}
+
+mat-card {
+  margin-bottom: 2rem;
+}
+
+mat-form-field {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.button-row {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+
+.songs-accordion {
+  margin-bottom: 1rem;
+}
+
+.mat-expansion-panel-header {
+  padding: 0 16px;
+}
+
+.mat-expansion-panel-body .mat-form-field {
+  width: calc(100% - 32px); /* Adjust for padding */
+  margin-left: 16px;
+  margin-right: 16px;
+}
+
+.mat-table {
+  width: 100%;
+}
+
+.mat-column-acciones {
+  width: 120px;
+  text-align: center;
+}
+
+.selected-playlist-card {
+  margin-top: 2rem;
+}
+
+.selected-playlist-card button {
+  margin-top: 1rem; /* Add margin to push the button down */
+}
+
+.song-details {
+  white-space: normal; /* Allow text to wrap */
+  overflow: visible; /* Ensure content is not hidden */
+}
+
+
